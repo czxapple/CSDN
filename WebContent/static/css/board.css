@@ -1,0 +1,381 @@
+ body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        		a:link { text-decoration: none; color: red;}　
+　　 	a:hover { text-decoration:underline; color: red;}
+　　 	a:visited { text-decoration: none; color: red;}
+      
+        .head{
+            width: 100%;
+            height: 20px;
+            position: absolute;
+            z-index: 5;
+            top: 0;
+            text-align: right;
+            border-bottom: 1px solid #E3E3E3;
+            font-size: 15px;
+        }
+        .head span{
+            color: #999999;
+        }
+        .register{
+            background: #0073BA;
+            color: white;
+            text-decoration: none;
+        }
+        .register:hover{
+            opacity: 0.8;
+        }
+        .login{
+            text-decoration: none;
+            padding-right: 85px;
+        }
+        .login:hover{
+            text-decoration: underline;
+        }
+        .banner{
+            width: 1200px;
+            height: 155px;
+            margin: 30px auto;
+        }
+        .banner img{
+            margin-top: 15px;
+            float: left;
+        }
+        .banner_top{
+            width: 1005px;
+            height: 28px;
+            line-height: 28px;
+            float: left;
+            margin-left: 5px;
+            margin-top: 10px;
+            background: #A41F24;
+            border-top: 1px solid #C24A52;
+            border-right: #C24A52;
+        }
+        .banner_top li{
+            float: left;
+            list-style: none;
+            margin-left: 10px;
+            padding-right: 5px;
+            color: white;
+            border-right: 1px solid #8E0D12;
+            font-family: 黑体;
+        }
+        .banner_top li:hover{
+            text-decoration: underline;
+        }
+        .banner_middle{
+            width: 1005px;
+            height: 28px;
+            line-height: 28px;
+            float: left;
+            margin-left: 5px;
+            background: #E3E7EB;
+        }
+        .banner_middle li{
+            list-style: none;
+            float: left;
+            padding-right: 5px;
+            border-right: 1px solid #D0D0D1;
+            margin-left: 10px;
+            font-family: 黑体;
+            font-size: 15px;
+            color: #444444;
+        }
+        .content{
+            width: 1200px;
+            height: 330px;
+            margin: 0 auto;
+        }
+        .content_left{
+            width: 150px;
+            height: 100%;
+            float: left;
+            background: #ECF1F4;
+            border: 1px solid #AAAAAA;
+        }
+        .content_left>div{
+            width: 120px;;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid white;
+            margin-left: 30px;
+            position: relative;
+            background: #ECF1F4;
+        }
+        .bkfl{
+            color: red;
+            font-weight: bold;
+        }
+        .yj_block{
+            width: 770px;
+            height: 100px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: 0;
+            display: none;
+        }
+        .yj:hover .yj_block{
+            display: block;
+        }
+        .yjs_block{
+            width: 770px;
+            height: 200px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: -41px;
+            display: none;
+        }
+        .yjs:hover .yjs_block{
+            display: block;
+        }
+        .dsj_block{
+            width: 770px;
+            height: 200px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: -82px;
+            display: none;
+        }
+        .dsj:hover .dsj_block{
+            display: block;
+        }
+        .loT_block{
+            width: 770px;
+            height: 200px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: -123px;
+            display: none;
+        }
+        .loT:hover .loT_block{
+            display: block;
+        }
+        .rgzn_block{
+            width: 770px;
+            height: 200px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: -164px;
+            display: none;
+        }
+        .rgzn:hover .rgzn_block{
+            display: block;
+        }
+        .ydkf_block{
+            width: 770px;
+            height: 200px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: -205px;
+            display: none;
+        }
+        .ydkf:hover .ydkf_block{
+            display: block;
+        }
+        .jg_block{
+            width: 770px;
+            height: 200px;
+            background: rgb(240,243,241);
+            position: absolute;
+            left: 120px;
+            top: -246px;
+            display: none;
+        }
+        .yj:hover,.yjs:hover,.dsj:hover,.loT:hover,.rgzn:hover,.ydkf:hover,.jg:hover{
+            color: #B50000;
+        }
+        .jg:hover .jg_block{
+            display: block;
+        }
+        .yj_block a{
+            width: 24.7%;
+            height: 33%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .yjs_block a{
+            width: 24.7%;
+            height: 19.4%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom-width:100%;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .dsj_block a{
+            width: 24.7%;
+            height: 19.4%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .loT_block a{
+            width: 24.7%;
+            height: 19.4%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .rgzn_block a{
+            width: 24.7%;
+            height: 19.4%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .ydkf_block a{
+            width: 24.7%;
+            height: 19.4%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .jg_block a{
+            width: 24.7%;
+            height: 19.4%;
+            float: left;
+            border-right: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        .content_middle{
+            width: 770px;
+            height: 100%;
+            float: left;
+            border: 1px solid #AAAAAA;
+        }
+        .content_middle_inner{
+            width: 95%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        .content_middle_inner_title{
+            width: 100%;
+            height: 43px;
+            line-height: 43px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content_middle_inner_banner{
+            width: 100%;
+            height: 25px;
+            line-height: 25px;
+            font-size: 13px;
+            background: #EAEEF0;
+            border-top: 1px solid #AAAAAA;
+            color: #B50000;
+        }
+        .content_middle_inner_banner:hover{
+            text-decoration: underline;
+        }
+        .content_middle_inner_banner span{
+            font-weight: bold;
+        }
+        .content_middle_inner_line1{
+            width: 100%;
+            height: 25px;
+            line-height: 25px;
+            font-size: 12px;
+            border-bottom: 1px dashed #DDDDDD;
+        }
+        .content_middle_inner_line1 span{
+            color: #B50000;
+        }
+        .content_middle_inner_line1 span:hover{
+            text-decoration: underline;
+        }
+        .content_right{
+            width: 274px;
+            height: 100%;
+            border: 1px solid #AAAAAA;
+            float: left;
+        }
+        .content_right_inner{
+            width: 85%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        .content_right_inner_banner{
+            width: 100%;
+            height: 25px;
+            line-height: 25px;
+            font-size: 13px;
+            background: #EAEEF0;
+            border-top: 1px solid #AAAAAA;
+            color: #B50000;
+            margin-top: 43px;
+            font-weight: bold;
+        }
+        .content_right_inner_banner:hover{
+            text-decoration: underline;
+        }
+        .content_right ul{
+            width: 100%;
+            height: 25px;
+            color: #B50000;
+            line-height: 25px;
+            font-size: 13px;
+            border-bottom: 1px solid #D5D5D5;
+        }
+        .content_right ul:hover{
+            text-decoration: underline;
+        }
+        .content_right li{
+            width: 74px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 13px;
+            float: left;
+            list-style: none;
+            padding-left: 0;
+            border-bottom: 1px dashed #DDDDDD;
+            /*margin-left: 5px;*/
+        }
+        .content_right li:hover{
+            color: #B50000;
+            text-decoration: underline;
+        }
+        .content_right_inner_footer{
+            clear: both;
+            text-align: right;
+            font-size: 13px;
+            line-height: 25px;
+            margin-right: 10px;
+        }
+        .content_right_inner_footer:hover{
+            color: #B50000;
+            text-decoration: underline;
+        }
+        .footer{
+            width: 1200px;
+            height: 130px;
+            margin: 20px auto;
+            border-top: 1px solid #E5E5E5;
+        }
+        .footer_line_1{
+            line-height: 25px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .footer_line_2{
+            text-align: center;
+            font-size: 12px;
+            line-height: 25px;
+        }
+        .footer_img{
+            display: block;
+            margin: 20px auto;
+        }

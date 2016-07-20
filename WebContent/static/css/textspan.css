@@ -1,0 +1,171 @@
+#recomBbsIndex {
+	position: relative;
+	float: left;
+	width: 530px;
+	padding: 15px 0 0 14px;
+}
+
+#recomBbsIndex h1 {
+	height: 20px;
+	background: none;
+	padding: 0 0 4px 8px;
+	line-height: 1.2;
+}
+
+#recomBbsIndex .list h3 {
+	margin-top: 8px;
+}
+
+#recomBbsIndex .list h3 a:hover, #indexSidebar h3 a {
+	color: #B50000;
+}
+
+#recomBbsIndex .list ul {
+	padding: 0 10px;
+}
+
+#recomBbsIndex .list li {
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	border-bottom: 1px dotted #DDD;
+}
+
+#recomBbsIndex .list .textSpan {
+	float: left;
+	width: 410px;
+	height: 30px;
+	overflow: hidden;
+}
+
+#recomBbsIndex .list .textSpan em {
+	margin-left: 5px;
+}
+
+#recomBbsIndex .list .textSpan a {
+	color: #222;
+	float: left;
+	max-width: 530px;
+}
+
+#recomBbsIndex .list .textSpan a:hover .red {
+	text-decoration: underline;
+}
+
+#recomBbsIndex .list .textSpan a:hover, #recomBbsIndex .list .textSpan a:active,
+	#indexSidebar .list a:hover, #indexSidebar .list a:active {
+	color: #b50000;
+	text-decoration: underline;
+	background: none;
+}
+
+#recomBbsIndex .list .forum {
+	float: right;
+	color: #565656;
+	width: 100px;
+	height: 30px;
+	overflow: hidden;
+	text-align: right;
+}
+
+#indexSidebar {
+	float: right;
+	width: 250px;
+	padding: 47px 15px 3000px;
+	margin-bottom: -2980px;
+	zoom: 1;
+	border-left: 1px solid #c2c7ca;
+}
+
+#indexSidebar .title {
+	height: 18px;
+	border-bottom: 1px solid #d5d5d5;
+	margin-bottom: 5px;
+}
+
+#indexSidebar .title a, #indexSidebar h4 {
+	color: #b50000;
+	font-size: 12px;
+}
+
+#indexSidebar .list {
+	overflow: hidden;
+	zoom: 1;
+	padding-left: 10px;
+}
+
+#indexSidebar .list ul {
+	overflow: hidden;
+	zoom: 1;
+}
+
+#indexSidebar .list li {
+	float: left;
+	color: #666;
+	width: 58px;
+	height: 24px;
+	line-height: 24px;
+	border-bottom: 1px dotted #DDD;
+	padding-left: 2px;
+}
+
+#indexSidebar .list li a {
+	color: #666;
+}
+
+#indexSidebar .list .more {
+	float: right;
+	margin-top: 5px;
+	color: #666;
+}
+
+#indexSidebar .hides {
+	display: none
+}
+
+
+
+
+
+
+.f666, .f666 a, a.f666, .f666 a:visited, a:visited.f666 {
+	color: #666;
+	text-decoration: none;
+}
+
+.f666 a:hover, a.f666:hover {
+	color: #b50000;
+	text-decoration: underline;
+	background: none;
+}
+
+.f666 {
+	margin-right: 8px;
+}
+
+span.f666 {
+	display: block;
+	padding-left: 62px;
+	padding-top: 2px;
+}
+
+a.f666:hover {
+	text-decoration: none;
+}
+
+.f666 {
+	font-weight: normal;
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+.f666 {
+	padding-right: 10px;
+}
+
+.f666 {
+	width: 60px;
+	display: block;
+	float: left;
+	margin-top: 6px;
+}
